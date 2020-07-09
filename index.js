@@ -9,14 +9,14 @@ const ytdl = require('ytdl-core');
 
 const opusscript = require('opusscript');
 
-const token = 'NzEzMDI5MDc3NzE1Mzg2NDg4.XsaLIA.jeFsAgebglpgaf17XIb4x8eGgUI';
+const token = 'insert own token here';
 
 var servers = {};
 
 const PREFIX = '~';
 
 bot.on('ready', () => {
-  console.log("Ready to fuk some shit up!");
+  console.log("Ready to yEEt");
   bot.user.setActivity("Reking N00bs");
 });
 
@@ -73,11 +73,11 @@ bot.on('message', msg=>{
       }
 
       if (!args[1]){
-        msg.channel.send("Provide a link stupid.")
+        msg.channel.send("Provide a link.")
       }
 
       if(!msg.member.voice.channel){
-        msg.channel.send("Where are you ah? Join channel stuped!");
+        msg.channel.send("Where are you ah? Join channel!");
         return;
       }
 
@@ -156,7 +156,7 @@ bot.on('message', msg=>{
     msg.reply('Hey guys wanna see my cat?');
   }
   if (msg.content === "whats the weather today?"){
-    msg.reply('Cloudy with a chance of fuck you.')
+    msg.reply('Cloudy with a chance of meatyballs.')
   }
 
   if (msg.content === "N-"){
